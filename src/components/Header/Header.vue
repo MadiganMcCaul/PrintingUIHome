@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
+
 </script>
 
 <template>
+  <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
   <div class="header-container">
     <div class="logo-container">
       <img
@@ -37,6 +39,7 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Sofia");
 .header-container {
   box-sizing: border-box;
   height: 116px;
@@ -48,7 +51,7 @@ import { RouterLink, RouterView } from "vue-router";
   background-color: #2b4a5e;
 
   top: 0;
-  position: fixed;
+  /* position: fixed; */
   padding: 0;
   margin: 0;
   left: 0;
@@ -136,7 +139,7 @@ nav2 {
   border-radius: 0px 10px 10px 0px;
   text-align: left;
   padding-left: 6px;
-  align-content: center;
-  font-size: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 25px;
 }
 </style>

@@ -10,7 +10,11 @@ import Content from "./components/Content/Content.vue";
     <Header />
     <div class="Sidebar_Content">
       <Sidebar />
-      <Content />
+      
+      <div class="Content">
+        <Content />
+      </div>
+      
     </div>
   </div>
 </template>
@@ -27,8 +31,17 @@ import Content from "./components/Content/Content.vue";
 
 .Sidebar_Content {
   display: flex;
-  height: 908px;
+  height: calc(1024px - 116px);
   width: 1920px;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Content {
+  display: flex;
+  height: calc(1024px - 116px);
+  width: 1920px;
+  position: sticky;
 }
 </style>

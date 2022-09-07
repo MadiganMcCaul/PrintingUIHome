@@ -11,19 +11,14 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 .Header2-Container {
   box-sizing: border-box;
-  height: 232px;
-  min-width: 200vh;
-  overflow: hidden;
+  height: 116px;
+  min-width: 100%;
+  /* overflow: hidden; */
   border: 1px solid #ffffff;
   background-color: #2b4a5e;
-  top: 0;
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  left: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: left;
   z-index: 97;
 }
 

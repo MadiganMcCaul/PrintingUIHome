@@ -13,11 +13,11 @@ import Header2 from "./Header_2/Header2.vue";
     .content-container {
         display: flex;
         box-sizing: border-box;
-        min-width: 1146px;
+        width: calc(1920px - 294px);
         min-height: 911px;
-        position: fixed;
-        justify-content: flex-end;
-        align-self: flex-end;
+        /* position: fixed; */
+        /* justify-content: flex-end;
+        align-self: flex-end; */
         
     }
 </style>

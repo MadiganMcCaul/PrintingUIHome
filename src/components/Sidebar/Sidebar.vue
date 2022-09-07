@@ -52,9 +52,9 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 Sider {
   box-sizing: border-box;
-  width: 294px;
-  height: 908px;
-  margin-top: 115px;
+  min-width: 294px;
+  height: 100%;
+  /* margin-top: 115px; */
 
   background: #2b4a5e;
 
@@ -68,7 +68,7 @@ Sider {
   transition: 0.3s ease;
 
   top: 0;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   z-index: 99;
 }
